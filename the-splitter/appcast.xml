@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>The Splitter</title>
+    <item>
+      <title>0.7</title>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 02 Oct 2026 12:41:53 -0400</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li><b>In-app updates.</b> The Splitter now checks for updates automatically, and The Splitter ▸ Check for Updates… checks on demand. Future versions install with one click; this is the last one you'll need to download by hand.</li>
+          <li><b>Beta extended.</b> This beta works through <b>November 30, 2026</b>.</li>
+        </ul>
+        <p>Requires Apple Silicon and macOS 26.5 or later.</p>
+      ]]></description>
+      <enclosure
+          url="https://github.com/snichol67/the-splitter-updates/releases/download/v0.7-8/The-Splitter-0.7-8.dmg"
+          length="13349808"
+          type="application/octet-stream"
+          sparkle:edSignature="qt0WOXiBHQLMMsMz7yHKbDVOXZuhbYJEpsaCGBDq6WDXGTBbktMe8YL34gQpxwNaQVO+vNjAYeXrZXyhIZZgDw==" />
+    </item>
+  </channel>
+</rss>

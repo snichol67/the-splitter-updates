@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Read by Debug builds only. Empty, so Check for Updates reports "up to date"
+     instead of an error; add an <item> here to test an update from a Debug build. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>The Splitter (test feed)</title>
+  </channel>
+</rss>
