@@ -3,23 +3,26 @@
   <channel>
     <title>The Splitter</title>
     <item>
-      <title>0.7</title>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.7</sparkle:shortVersionString>
+      <title>0.7.1</title>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 02 Oct 2026 12:41:53 -0400</pubDate>
+      <pubDate>Sat, 10 Oct 2026 13:01:51 -0400</pubDate>
       <description><![CDATA[
         <ul>
-          <li><b>In-app updates.</b> The Splitter now checks for updates automatically, and The Splitter ▸ Check for Updates… checks on demand. Future versions install with one click; this is the last one you'll need to download by hand.</li>
-          <li><b>Beta extended.</b> This beta works through <b>November 30, 2026</b>.</li>
+          <li><b>Choose how tracks are named.</b> Settings ▸ File Output ▸ File Names builds a file name from the track's disc and track number, title, artist and album: type / to insert one. Pick what spaces become, and whether single-disc releases carry a disc number. Names are kept safe for Mac, Linux and Windows disks and network shares, and long names are shortened evenly to fit.</li>
+          <li><b>Rename files from Edit Metadata….</b> Tick “Rename files to match the file naming setting” and Save renames every file from its tags. The new names show in the list before you save.</li>
+          <li><b>Look up a release in Edit Metadata….</b> Search MusicBrainz and Discogs from the editor and apply a release's titles, track numbers and album details to the files in one step. Track lengths are compared with the files so a wrong match or a wrong order stands out.</li>
+          <li>Drag files into order in Edit Metadata…, and play the start of any file to check which track it is.</li>
+          <li>Shows potentially missing audio files, based on the release's track information from MusicBrainz or Discogs.</li>
         </ul>
-        <p>Requires Apple Silicon and macOS 26.5 or later.</p>
+        <p>This beta works through <b>November 30, 2026</b>. Requires Apple Silicon and macOS 26.5 or later.</p>
       ]]></description>
       <enclosure
-          url="https://github.com/snichol67/the-splitter-updates/releases/download/v0.7-8/The-Splitter.dmg"
-          length="13349808"
+          url="https://github.com/snichol67/the-splitter-updates/releases/download/v0.7.1-9/The-Splitter.dmg"
+          length="13576791"
           type="application/octet-stream"
-          sparkle:edSignature="qt0WOXiBHQLMMsMz7yHKbDVOXZuhbYJEpsaCGBDq6WDXGTBbktMe8YL34gQpxwNaQVO+vNjAYeXrZXyhIZZgDw==" />
+          sparkle:edSignature="ZXM0eRDNFbHpgYFq/Lk3i5IMNk5BRrVEXlGQz27nPTcZwHWoFiQHhh63dYJD4/8+2DQf+FTMFPg6WDu4zsjAAQ==" />
     </item>
   </channel>
 </rss>
