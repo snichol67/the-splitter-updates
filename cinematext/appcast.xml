@@ -4,20 +4,19 @@
     <title>Cinema Text</title>
     <item>
       <title>1.2</title>
-      <sparkle:version>20</sparkle:version>
+      <sparkle:version>21</sparkle:version>
       <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 17 Oct 2026 10:55:09 -0400</pubDate>
+      <pubDate>Sat, 17 Oct 2026 11:25:10 -0400</pubDate>
       <description><![CDATA[
         <ul>
-          <li>Cinema Text now checks for updates automatically. You can also choose Cinema Text ▸ Check for Updates… at any time.</li>
-          <li>More accurate text: quotation marks at the end of a line, double music notes and wrapped sound descriptions are read correctly.</li>
+          <li>Tests updating from 1.2 (20). No changes.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/cinematext-updates/releases/download/v1.2-20/CinemaText.dmg"
-                 length="13159083"
+      <enclosure url="https://github.com/snichol67/cinematext-updates/releases/download/v1.2-21/CinemaText.dmg"
+                 length="13158948"
                  type="application/octet-stream"
-                 sparkle:edSignature="rMpga5wMjrjPlQWmSkKuMQnDwSpx7rv/mV8seWjubWHFMM8bEoqG4oKZsNcl0Gc+38sG3OAj49+sEJmBKEk9Cw==" />
+                 sparkle:edSignature="iVtCOe/3Ohn1Ix1GBFjyxhURGROCjAuFpyshs6Gp41FG86qa7hf5hQP/BWvPNgt0+ff3xeraTtcSAhOOhtNsAA==" />
     </item>
   </channel>
 </rss>
