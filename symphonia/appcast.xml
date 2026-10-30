@@ -3,20 +3,20 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>0.6.0</title>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <title>0.6.1</title>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 10:27:39 -0400</pubDate>
+      <pubDate>Fri, 30 Oct 2026 10:32:41 -0400</pubDate>
       <description><![CDATA[
         <ul>
-          <li>Symphonia now updates itself. It checks for new versions every few hours and shows them in its menu and on its status page. Turn on automatic updates to have it install them when no music is playing.</li>
+          <li>A test of Symphonia's updates: no other changes from 0.6.0.</li>
         </ul>
         <p>Requires Apple Silicon and macOS 26 or later.</p>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v0.6.0-8/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v0.6.1-9/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="XLr5UvwqWI5yLfx38mqMnL4Rxj2XtId2Cd1bDc2ic2zLXKTW8bIWJO5YvsFNhAcCJpLf5XO2AvGRQjEfRxA+DQ==" length="15392175" />
+                 sparkle:edSignature="2FveEP2nL2F5W3jtQgSwV3W4PvblDYbyLA8x+WEVDQsBOFdBVXeXfWhhr7ooegp0Wo2IetQY/E1a8bkMK9vXAA==" length="15392216" />
     </item>
   </channel>
 </rss>
