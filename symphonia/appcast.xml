@@ -3,20 +3,26 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>0.6.2</title>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+      <title>1.0</title>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 11:20:00 -0400</pubDate>
+      <pubDate>Fri, 30 Oct 2026 12:15:45 -0400</pubDate>
       <description><![CDATA[
+        <p><b>Symphonia 1.0</b> is the first public release: a music server that shares the music on your Mac with network audio players and apps.</p>
         <ul>
-          <li>A test of Symphonia's automatic updates: no other changes from 0.6.1.</li>
+          <li><b>Works with HEOS and other UPnP/DLNA players.</b> Symphonia announces itself on your network, so players and control apps find it on their own.</li>
+          <li><b>Plays your files exactly as they are.</b> FLAC, ALAC, AAC, WAV, AIFF, MP3 and DSD are sent unchanged, with no converting or resampling, and albums play gaplessly on players that support it. Your player's own limits on sample rate, bit depth and DSD still apply.</li>
+          <li><b>Browse your way.</b> By album artist, artist, album, genre, composer, recently added or folder, with album art from your files or the cover image in each album's folder. Players that support search can search by track, artist and album.</li>
+          <li><b>Keeps up with your library.</b> New and changed music appears on its own, including on external and network drives.</li>
+          <li><b>Built for a Mac nobody's sitting at.</b> Symphonia runs in the menu bar and can start at login. A status page, open in any browser on your network, shows what it's doing and what's playing.</li>
+          <li><b>Updates itself.</b> It checks for new versions every few hours. Turn on automatic updates to have them installed when no music is playing.</li>
         </ul>
-        <p>Requires Apple Silicon and macOS 26 or later.</p>
+        <p>Symphonia is free and serves audio only. Requires Apple Silicon and macOS 26 or later.</p>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v0.6.2-10/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0-11/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="Uvu/tIdvwh+rJkxOtaAauC4ef1LOF/kV0Ar+5rPWDE05WPYWSnPWRMYzKzlEtkkhP0oAF7CKBFjt11u23VRJAA==" length="15394954" />
+                 sparkle:edSignature="YW1tOK5f8k7qjQFHnSvhHflAX4oo6V/neE9vhhoM4uD0zFXu6TNd9mlPHAD23G/kOvr4GwfdtWkmr5QfT1ASDg==" length="15413624" />
     </item>
   </channel>
 </rss>
