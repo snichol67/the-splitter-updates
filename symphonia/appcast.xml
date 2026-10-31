@@ -3,21 +3,22 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>1.0.2</title>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <title>1.0.3</title>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 31 Oct 2026 00:00:27 -0400</pubDate>
+      <pubDate>Sat, 31 Oct 2026 00:40:27 -0400</pubDate>
       <description><![CDATA[
-        <p><b>Symphonia 1.0.2</b> recovers more easily when macOS blocks its network access.</p>
+        <p><b>Symphonia 1.0.3</b> keeps the server running when an update briefly blocks its network access.</p>
         <ul>
-          <li><b>Tries again on its own.</b> If Symphonia hears nothing from any other device on your network for 10 minutes, it now reconnects to the network by itself, and keeps trying every 5 minutes until players can find it again.</li>
-          <li><b>If you see the warning,</b> open System Settings › Privacy &amp; Security › Local Network on the Mac running Symphonia and turn Symphonia off and on again. After turning it off and on again, Symphonia may reconnect without a restart; if the warning is still there after 5 minutes, quit and reopen Symphonia.</li>
+          <li><b>No more "Write host unreachable".</b> Right after an update, macOS can block Symphonia from announcing itself on the network for a short time. Before, that stopped the whole server, including the status page, until you chose Try Again. Now Symphonia keeps serving music and tries again 30 seconds later.</li>
+          <li><b>Reconnects sooner.</b> If players can't find Symphonia, it reconnects after 2 minutes instead of 10, then keeps trying every 5 minutes. The status page shows a warning until it succeeds.</li>
+          <li><b>Simpler advice.</b> If the warning is still there after 10 minutes, quit and reopen Symphonia. Turning Symphonia off and on again in System Settings › Privacy &amp; Security › Local Network is only needed if that doesn't help.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0.2-13/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0.3-14/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="2JFe6H44LpgVtM5qR/USpWoEH/p7QXfdP5UqGytq/o8In/8os/8WpA/Kwv1pmu3faHAwOr3iUZDusJpy6pHYDg==" length="15421929" />
+                 sparkle:edSignature="t1CkQ+WXoyFdkgmchiGv6Ug1ftKHwJwEE8m8punzYTmVvmgc2YXPLh+A+zDkMs70SCVtfcn8bEWvMoHwQAsuCw==" length="15422720" />
     </item>
   </channel>
 </rss>
