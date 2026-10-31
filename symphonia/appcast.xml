@@ -3,21 +3,21 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>1.0.1</title>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <title>1.0.2</title>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 20:31:18 -0400</pubDate>
+      <pubDate>Sat, 31 Oct 2026 00:00:27 -0400</pubDate>
       <description><![CDATA[
-        <p><b>Symphonia 1.0.1</b> warns you when players may not be able to find it.</p>
+        <p><b>Symphonia 1.0.2</b> recovers more easily when macOS blocks its network access.</p>
         <ul>
-          <li><b>New warning on the status page.</b> After an install or update, macOS can sometimes block Symphonia's access to your network, even when System Settings shows it as allowed. Your music players then can't find Symphonia, though the status page still opens. If Symphonia hears nothing from any other device on your network for 10 minutes, the status page now says so and explains how to fix it.</li>
-          <li><b>The fix, if you see it:</b> on the Mac running Symphonia, open System Settings › Privacy &amp; Security › Local Network, turn Symphonia off and on again, then quit and reopen Symphonia.</li>
+          <li><b>Tries again on its own.</b> If Symphonia hears nothing from any other device on your network for 10 minutes, it now reconnects to the network by itself, and keeps trying every 5 minutes until players can find it again.</li>
+          <li><b>If you see the warning,</b> open System Settings › Privacy &amp; Security › Local Network on the Mac running Symphonia and turn Symphonia off and on again. After turning it off and on again, Symphonia may reconnect without a restart; if the warning is still there after 5 minutes, quit and reopen Symphonia.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0.1-12/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0.2-13/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="OvrxWaezg1WMUGPitQLvfbASTmhxEC7zgLl9n6NTjCXdKOiA5JsfahNiNrdbN0D0kBFsibAqSEYXLbX47g1JBw==" length="15420540" />
+                 sparkle:edSignature="2JFe6H44LpgVtM5qR/USpWoEH/p7QXfdP5UqGytq/o8In/8os/8WpA/Kwv1pmu3faHAwOr3iUZDusJpy6pHYDg==" length="15421929" />
     </item>
   </channel>
 </rss>
