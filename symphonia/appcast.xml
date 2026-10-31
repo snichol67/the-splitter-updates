@@ -3,26 +3,21 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>1.0</title>
-      <sparkle:version>11</sparkle:version>
-      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <title>1.0.1</title>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 30 Oct 2026 12:15:45 -0400</pubDate>
+      <pubDate>Fri, 30 Oct 2026 20:31:18 -0400</pubDate>
       <description><![CDATA[
-        <p><b>Symphonia 1.0</b> is the first public release: a music server that shares the music on your Mac with network audio players and apps.</p>
+        <p><b>Symphonia 1.0.1</b> warns you when players may not be able to find it.</p>
         <ul>
-          <li><b>Works with HEOS and other UPnP/DLNA players.</b> Symphonia announces itself on your network, so players and control apps find it on their own.</li>
-          <li><b>Plays your files exactly as they are.</b> FLAC, ALAC, AAC, WAV, AIFF, MP3 and DSD are sent unchanged, with no converting or resampling, and albums play gaplessly on players that support it. Your player's own limits on sample rate, bit depth and DSD still apply.</li>
-          <li><b>Browse your way.</b> By album artist, artist, album, genre, composer, recently added or folder, with album art from your files or the cover image in each album's folder. Players that support search can search by track, artist and album.</li>
-          <li><b>Keeps up with your library.</b> New and changed music appears on its own, including on external and network drives.</li>
-          <li><b>Built for a Mac nobody's sitting at.</b> Symphonia runs in the menu bar and can start at login. A status page, open in any browser on your network, shows what it's doing and what's playing.</li>
-          <li><b>Updates itself.</b> It checks for new versions every few hours. Turn on automatic updates to have them installed when no music is playing.</li>
+          <li><b>New warning on the status page.</b> After an install or update, macOS can sometimes block Symphonia's access to your network, even when System Settings shows it as allowed. Your music players then can't find Symphonia, though the status page still opens. If Symphonia hears nothing from any other device on your network for 10 minutes, the status page now says so and explains how to fix it.</li>
+          <li><b>The fix, if you see it:</b> on the Mac running Symphonia, open System Settings › Privacy &amp; Security › Local Network, turn Symphonia off and on again, then quit and reopen Symphonia.</li>
         </ul>
-        <p>Symphonia is free and serves audio only. Requires Apple Silicon and macOS 26 or later.</p>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0-11/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0.1-12/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="YW1tOK5f8k7qjQFHnSvhHflAX4oo6V/neE9vhhoM4uD0zFXu6TNd9mlPHAD23G/kOvr4GwfdtWkmr5QfT1ASDg==" length="15413624" />
+                 sparkle:edSignature="OvrxWaezg1WMUGPitQLvfbASTmhxEC7zgLl9n6NTjCXdKOiA5JsfahNiNrdbN0D0kBFsibAqSEYXLbX47g1JBw==" length="15420540" />
     </item>
   </channel>
 </rss>
