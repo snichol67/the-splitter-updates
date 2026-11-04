@@ -3,26 +3,29 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>1.0.4</title>
-      <sparkle:version>15</sparkle:version>
-      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <title>1.0.5</title>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 31 Oct 2026 10:56:43 -0400</pubDate>
+      <pubDate>Wed, 04 Nov 2026 17:10:26 -0500</pubDate>
       <description><![CDATA[
-        <p><b>Symphonia 1.0.4</b> records network reconnects in the activity log.</p>
+        <p><b>Symphonia 1.0.5</b> fixes Recently Added and keeps volume in step when another app takes over a player.</p>
         <ul>
-          <li><b>Reconnects are logged.</b> When players stop hearing from Symphonia and it reconnects, the activity log now says so, and it notes when players can find the server again. This makes it easier to see what happened if a player loses track of Symphonia.</li>
+          <li><b>Recently Added shows when albums really arrived.</b> Symphonia used to count every album as added on the day it first scanned your library, so Recently Added mixed in albums from months ago. After this update, albums from that first scan are dated by when their files were added to your music folder, and albums added since keep their dates. This happens once, when Symphonia first opens after the update.</li>
+          <li><b>Volume stays in step after another source takes over.</b> When another app or source took over a player, Symphonia stopped following its volume, so Odeion could show an old level and jump when you pressed + or −. Symphonia now keeps checking the volume while an app is connected.</li>
+          <li><b>More detail in the activity log.</b> Failed player status checks, recovery, and player commands that fail are now logged as errors, so it's easier to see what happened when a player stops answering.</li>
         </ul>
         <p><b>Also new since 1.0:</b></p>
         <ul>
           <li><b>A warning when players can't find Symphonia</b> (1.0.1). Right after an install or update, macOS can briefly block Symphonia's access to your network. The status page now shows a warning when that happens.</li>
           <li><b>Reconnects by itself</b> (1.0.2, 1.0.3). Symphonia keeps serving music and reconnects on its own, usually within a few minutes, with no need to choose Try Again.</li>
+          <li><b>Reconnects are logged</b> (1.0.4). The activity log says when Symphonia reconnects, and when players can find it again.</li>
           <li><b>If the warning stays</b> for more than 10 minutes, quit and reopen Symphonia. If that doesn't help, open System Settings › Privacy &amp; Security › Local Network, turn Symphonia off and on again, then quit and reopen Symphonia.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0.4-15/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.0.5-16/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="GdzwFxglz3pDzbyL7zkoKu/gvgzZZyFQ2oR6hgRO1cPqeICD7RaccgUiRlw5Twu7Ngaw55cyk0V4s4LWK+H2AQ==" length="15422781" />
+                 sparkle:edSignature="KqxJAkDQPJJnkiWdyKCKzbMagIo6n47yW6c5s2mEBTirSFW3m3FTXXOBJEnNynpNv4eTqdMNsz9iNzbKlTr0AA==" length="15421764" />
     </item>
   </channel>
 </rss>
