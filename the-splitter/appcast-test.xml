@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Read by Debug builds only. Empty, so Check for Updates reports "up to date"
-     instead of an error; add an <item> here to test an update from a Debug build. -->
+<!-- Read by Debug builds, and by a release build on a Mac pointed here for staging
+     (BuildDMG.md, "Staging a release"). Keep it empty between tests, so Check for
+     Updates reports "up to date" instead of an error. -->
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>The Splitter (test feed)</title>
+    <item>
+      <title>0.7.8</title>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.7.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 04 Nov 2026 10:54:37 -0500</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li><b>Choose how album artwork is saved.</b> Settings ▸ Metadata ▸ Artwork saves it embedded in each track, as image files in the album folder (cover.jpg, folder.jpg, front.jpg or album.jpg), or both. Album Artwork Size shrinks artwork that's larger than the longest side and file size you set; otherwise the image is kept exactly as it was.</li>
+          <li><b>Search for Artwork….</b> From the cover art's menu, see every front cover MusicBrainz and Discogs have for the album, with each image's real size and file size, and pick the one you want.</li>
+          <li><b>Artwork in Edit Metadata….</b> Download, view or remove a folder's cover art. The editor shows which image files are already on disk and offers Match Artwork to Settings… when they differ from your settings.</li>
+          <li>Encoding without artwork now asks first, so an album isn't saved without its cover by accident.</li>
+          <li><b>Multi-disc releases ask which disc to use.</b> When a release spans several discs, such as a set of CDs with a DVD, The Splitter asks which disc your file or CD is and preselects the one whose track count matches. Previously a DVD from such a set was given the first CD's song titles.</li>
+          <li>Loading a new file or disc clears the previous album's artist, title, year, genre, disc number and artwork, so they aren't written into the new one.</li>
+          <li>The track list automatically scrolls to display the track currently being read when ripping discs with long track lists.</li>
+          <li>In the Choose a release sheet, you can now double-click a release to choose it.</li>
+        </ul>
+        <p>This beta works through <b>December 31, 2026</b>. Requires Apple Silicon and macOS 26.5 or later.</p>
+      ]]></description>
+      <enclosure
+          url="https://github.com/snichol67/the-splitter-updates/releases/download/v0.7.8-11/The-Splitter.dmg"
+          length="13790275"
+          type="application/octet-stream"
+          sparkle:edSignature="tNtwlTAP0mTvoPnNjX6FF5J668YEBHeo35QXW+sSnOjSIxT2ixcBLOxYZlL/BX0yFuv7r0E+0hETCU9e9UezCA==" />
+    </item>
   </channel>
 </rss>
