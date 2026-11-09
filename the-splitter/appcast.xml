@@ -3,12 +3,17 @@
   <channel>
     <title>The Splitter</title>
     <item>
-      <title>0.8.1</title>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <title>0.8.2</title>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 09 Nov 2026 00:40:54 -0500</pubDate>
+      <pubDate>Mon, 09 Nov 2026 17:37:33 -0500</pubDate>
       <description><![CDATA[
+        <ul>
+          <li><b>An Album Artist field</b> on the main screen and in Edit Metadata…. Media servers such as Symphonia list an album under every name in its album artist (an album by "Nine Inch Nails, Boys Noize" appears under both) and look for the artist's photo in the album artist's folder, so the two can now differ: a classical album filed under its composer, or a collaboration filed under one band. On the main screen it's optional: left empty, the Artist is used, as before; filled in, it's written to every track and names the artist folder. In the editor, changing the Artist still changes the Album Artist on files where the two were the same.</li>
+          <li>Find Artist Logos finds artists with accented names, such as Björk. Online searches for an accented name, whether for an artist or an album, no longer come back empty.</li>
+        </ul>
+        <p><b>Also new in 0.8.1:</b></p>
         <ul>
           <li><b>A logo and a photo.</b> Find Artist Logos can save a logo and a photo for the same artist: pick one of each, and a new column beside the artist's name shows what will be saved. Artists that already have a photo are offered photos again too, so you can switch between Logo and Photo for them.</li>
           <li>Find Artist Logos no longer fails to replace or remove an image on a drive without a Trash, such as a network share. The old file is deleted instead, as Finder does.</li>
@@ -23,10 +28,10 @@
         <p>Artist logos and photos come from fanart.tv, where its community adds them. This beta works through <b>December 31, 2026</b>. Requires Apple Silicon and macOS 26.5 or later.</p>
       ]]></description>
       <enclosure
-          url="https://github.com/snichol67/the-splitter-updates/releases/download/v0.8.1-13/The-Splitter.dmg"
-          length="13980912"
+          url="https://github.com/snichol67/the-splitter-updates/releases/download/v0.8.2-14/The-Splitter.dmg"
+          length="13975017"
           type="application/octet-stream"
-          sparkle:edSignature="aECd9RX4cW9KWSTZwMFc/jVV+x6vmZ/XhgQ3H8Sd8EYWeOshoZrT9AyFB4o/qLIz5AhSisyCkdmt30LidyBcDg==" />
+          sparkle:edSignature="MclXsyFuAP+zIBGANNyt79XR6mKmALZUbiEExgScznuqm5vbkDos92hSk4W5g0zuAUBL1THVLjpq1YYi3E1GBQ==" />
     </item>
   </channel>
 </rss>
