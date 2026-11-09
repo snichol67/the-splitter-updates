@@ -13,13 +13,20 @@
           <li><b>A logo and a photo.</b> Find Artist Logos can save a logo and a photo for the same artist: pick one of each, and a new column beside the artist's name shows what will be saved. Artists that already have a photo are offered photos again too, so you can switch between Logo and Photo for them.</li>
           <li>Find Artist Logos no longer fails to replace or remove an image on a drive without a Trash, such as a network share. The old file is deleted instead, as Finder does.</li>
         </ul>
+        <p><b>Also new in 0.8:</b></p>
+        <ul>
+          <li><b>Find Artist Logos.</b> Tools ▸ Find Artist Logos… (⇧⌘F) looks through your music library for artist folders without a logo, finds each artist's logos and photos on fanart.tv, and lets you pick a logo, a photo, or one of each. Logos are saved as logo.png and photos as artist.jpg in the artist's folder, the one that holds their album folders. Symphonia shows them for each artist: Odeion puts the logo in its Artists list and the photo on the artist's page. Needs a Look lists the artists still to do; All lists every artist, and Find Another replaces an image you already have (the old file goes to the Trash, or is deleted on a drive without one). Add your own free fanart.tv personal key in Settings ▸ Metadata for faster access to newly added images.</li>
+          <li><b>Use the artwork already in the album folder.</b> When you rip the second disc of a set into the same folder, The Splitter finds the first disc's cover.jpg and offers to use it, with a full-size preview. Artwork used this way is kept as it is. If you encode over existing artwork anyway, you can now keep it, not only replace it or cancel.</li>
+          <li><b>A Composer field</b> on the main screen and in Edit Metadata…. On the main screen it's written to every track; in the editor it changes or clears the composer of the selected files.</li>
+          <li>Search for Artwork… no longer sometimes lists the same image twice when two releases share it.</li>
+        </ul>
         <p>Artist logos and photos come from fanart.tv, where its community adds them. This beta works through <b>December 31, 2026</b>. Requires Apple Silicon and macOS 26.5 or later.</p>
       ]]></description>
       <enclosure
           url="https://github.com/snichol67/the-splitter-updates/releases/download/v0.8.1-13/The-Splitter.dmg"
-          length="13979508"
+          length="13980912"
           type="application/octet-stream"
-          sparkle:edSignature="CfF3PvqYcWJ4XaNkWZEVacCtcfc6U4c8uQjAuWdTVG13+8pBI8SvSkUFcgzRDu5ykQgSJHrsXUVs6Uq9yJ7sBg==" />
+          sparkle:edSignature="aECd9RX4cW9KWSTZwMFc/jVV+x6vmZ/XhgQ3H8Sd8EYWeOshoZrT9AyFB4o/qLIz5AhSisyCkdmt30LidyBcDg==" />
     </item>
   </channel>
 </rss>
