@@ -3,22 +3,26 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>1.1.0</title>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <title>1.1.1</title>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 08 Nov 2026 15:10:29 -0500</pubDate>
+      <pubDate>Mon, 09 Nov 2026 20:59:36 -0500</pubDate>
       <description><![CDATA[
-        <p><b>Symphonia 1.1</b> shows a logo and a photo for each artist, from images you keep in the artist's folder.</p>
+        <p><b>Symphonia 1.1.1</b> keeps album covers and artist images when you move or rename folders.</p>
+        <ul>
+          <li><b>Moved albums find their artwork.</b> When you move or rename an album's folder, or its artist's folder, Symphonia now looks for its cover and its artist's photo or logo in the new place. Before, it kept looking in the old folder, so a moved album could lose its cover and its artist their photo. Albums moved before this update are put right the first time Symphonia scans after updating, with nothing for you to do.</li>
+        </ul>
+        <p><b>Also new in 1.1:</b></p>
         <ul>
           <li><b>Artist logos and photos.</b> Put a <code>logo.png</code> and an <code>artist.jpg</code> (or <code>folder.jpg</code>) in an artist's folder, the one that holds their album folders. Symphonia picks them up by itself, and Odeion shows the logo in its Artists list and the photo, with the logo over it, at the top of the artist's page. Other UPnP apps that show artist pictures get the logo, or the photo when there's no logo. Transparent logos keep their see-through background.</li>
           <li><b>Find them with The Splitter.</b> The Splitter's Tools &gt; Find Artist Logos… looks up logos and photos for every artist in your library on fanart.tv and saves the ones you choose in the right folders.</li>
           <li><b>Which folder is the artist's.</b> Symphonia uses the folder above an artist's albums when it's named for the artist, or when every album in it is theirs, so a shared or genre folder isn't mistaken for one artist's.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.1.0-17/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.1.1-19/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="cCkWSyB+YjmKrM1oeFieC6p/SCq1RgAc8NW2QdmPE+J9RROJaGJpMG5nDunXwSZOR4pxnT5YVIjtCNLTJLzzDQ==" length="15452999" />
+                 sparkle:edSignature="hEXrweLI2WUghvL7Ad04Rqdl7Lv5TY6YArxBjF1yQDILIoLe5TwfQJrnUCabSgblAdXe8eF4NCZevGCFu3HrDg==" length="15453999" />
     </item>
   </channel>
 </rss>
