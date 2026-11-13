@@ -3,13 +3,17 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>1.1.1</title>
-      <sparkle:version>19</sparkle:version>
-      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <title>1.1.2</title>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Mon, 09 Nov 2026 20:59:36 -0500</pubDate>
+      <pubDate>Fri, 13 Nov 2026 12:06:46 -0500</pubDate>
       <description><![CDATA[
-        <p><b>Symphonia 1.1.1</b> keeps album covers and artist images when you move or rename folders.</p>
+        <p><b>Symphonia 1.1.2</b> picks up new names for your network players.</p>
+        <ul>
+          <li><b>Renamed players show their new name.</b> When you rename a network player in its own app, such as a WiiM or a Marantz, Odeion now shows the new name within five minutes, with nothing to restart. Before, Symphonia could keep the old name, even after restarting.</li>
+        </ul>
+        <p><b>Also new in 1.1.1:</b></p>
         <ul>
           <li><b>Moved albums find their artwork.</b> When you move or rename an album's folder, or its artist's folder, Symphonia now looks for its cover and its artist's photo or logo in the new place. Before, it kept looking in the old folder, so a moved album could lose its cover and its artist their photo. Albums moved before this update are put right the first time Symphonia scans after updating, with nothing for you to do.</li>
         </ul>
@@ -20,9 +24,9 @@
           <li><b>Which folder is the artist's.</b> Symphonia uses the folder above an artist's albums when it's named for the artist, or when every album in it is theirs, so a shared or genre folder isn't mistaken for one artist's.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.1.1-19/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.1.2-21/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="hEXrweLI2WUghvL7Ad04Rqdl7Lv5TY6YArxBjF1yQDILIoLe5TwfQJrnUCabSgblAdXe8eF4NCZevGCFu3HrDg==" length="15453999" />
+                 sparkle:edSignature="IvNweApihtZxOpSPGRfJ180C+bwSVsvzUAzi0cbAnuGU0wUpieCTzY3T24z8S5DZJSHwfcqWcdPLe/uhOYjpCA==" length="15458804" />
     </item>
   </channel>
 </rss>
