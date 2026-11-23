@@ -3,13 +3,17 @@
   <channel>
     <title>Symphonia</title>
     <item>
-      <title>1.1.3</title>
-      <sparkle:version>29</sparkle:version>
-      <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+      <title>1.1.4</title>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 15 Nov 2026 09:45:35 -0500</pubDate>
+      <pubDate>Sun, 22 Nov 2026 15:53:06 -0500</pubDate>
       <description><![CDATA[
-        <p><b>Symphonia 1.1.3</b> brings Odeion's Set List to your network players, and keeps them playing when they get a new address or wake from standby.</p>
+        <p><b>Symphonia 1.1.4</b> updates the copyright notice. Nothing else changes.</p>
+        <ul>
+          <li><b>Copyright notice.</b> The About window and the Read Me now say “© 2026 Scott Nichol”, the person who makes Symphonia, in place of “Trendy West End”, the name of the website it comes from.</li>
+        </ul>
+        <p><b>Also new in 1.1.3:</b></p>
         <ul>
           <li><b>Odeion's Set List on network players.</b> Symphonia now keeps Odeion's Up Next and Continuous Play for each network player, so a version of Odeion that supports it can add, reorder and remove tracks while music plays there, and every iPhone, iPad, Mac and Apple TV shows the same list. Moving the music to another player takes the whole list with it.</li>
           <li><b>Streaming hardware waking from standby starts from the beginning.</b> Some gear will respond to play requests even when powered off or in a standby state. Some network streamers such as a Marantz will power up when asked to play. Symphonia now waits for the amp to start for up to two minutes and starts playback when the amp is ready. Players like our Odeion Music app will show that it's waking. Symphonia keeps the amp muted while the startup sequence completes, then starts the track from the beginning unmuted letting you hear the first song uninterrupted. This fixes an issue where Symphonia could give up too soon and leave the album paused a few seconds in, or the opening went unheard.</li>
@@ -31,9 +35,9 @@
           <li><b>Which folder is the artist's.</b> Symphonia uses the folder above an artist's albums when it's named for the artist, or when every album in it is theirs, so a shared or genre folder isn't mistaken for one artist's.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.1.3-29/Symphonia.dmg"
+      <enclosure url="https://github.com/snichol67/symphonia-updates/releases/download/v1.1.4-30/Symphonia.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="qavK/T7JK8+ojFc9flp8SYmh6J0f2gxv5zH5XMKYwcloEFgM9EV6firEosVQZMWShTzwb/PZDJHhrJwtU/k5Dw==" length="15517343" />
+                 sparkle:edSignature="mRvkYRAP3N2O3g8zsKWEfJPb3SCCWBnbF3td88jGwhvVOHEhd8lP8wNtlOlJ622xpae6fLFIdxA6YtSuwNDiAA==" length="15517387" />
     </item>
   </channel>
 </rss>
